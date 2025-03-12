@@ -1,18 +1,16 @@
-let hello = 'Hello World';
-alert(hello);
+// 四則演算の書き方
 
-// 整数を代入する
-let int1 = 1;
-alert(int1);
+// 足し算
+alert(4 + 3);
 
-// 負数を代入する
-let int2 = -10;
-alert(int2);
+// 引き算
+alert(8 - 5);
 
-// 小数点を代入する
-let float1 = 3.14;
-alert(float1);
+// 掛け算
+alert(2 * 6);
 
-// 文字列を代入する
-let str1 = 'JavaScriptを覚えよう';
-alert(str1);
+// 割り算
+alert(10 / 2);
+
+// 剰余
+alert(10 % 3);
