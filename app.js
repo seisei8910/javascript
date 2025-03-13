@@ -1,16 +1,7 @@
-// 四則演算の書き方
+// 文字列を結合
 
-// 足し算
-alert(4 + 3);
+alert('Hello' + 'World');
 
-// 引き算
-alert(8 - 5);
-
-// 掛け算
-alert(2 * 6);
-
-// 割り算
-alert(10 / 2);
-
-// 剰余
-alert(10 % 3);
+let str1 = 'Hello';
+let str2 = 'World!!';
+alert(str1 + str2);
