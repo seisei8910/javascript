@@ -1,5 +1,5 @@
-// letによる再宣言
-let nickname = "taro"
+// constによる再宣言
+const nickname = "taro"
 console.log(nickname)
-let nickname = "ichiro"
+const nickname = "ichiro"
 console.log(nickname)
