@@ -1,12 +1,10 @@
-// do...while文
+// for文
 
-let max = 100;
-let num = 100;
-let count = 0;
+let i;
+let num = 0;
 
-do{
-  num = num * 2;
-  count = count + 1;
-}while(num < max);
+for(i = 1; i < 11; i++){
+  num = num + i;
+}
 
-alert('2を掛けて' + max + 'を２倍にした数字' + num + 'になり処理を行ったのは' + count + '回です');
+alert('1から10までを足し算した結果は' + num + 'です');
