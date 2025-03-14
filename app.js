@@ -1,12 +1,12 @@
-// 条件分岐
+// while文
 
-let orange = 100;
-let apple = 100;
+let max = 100;
+let num = 1;
+let count = 0;
 
-if(orange < apple){
-  alert('みかんの値段がりんごより安い');
-} else if(orange == apple){
-  alert('みかんとりんごが同じ値段');
-} else{
-  alert('みかんの値段がりんごより高い');
+while(num < max){
+  num = num * 4;
+  count = count + 1;
 }
+
+alert('4を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です')
