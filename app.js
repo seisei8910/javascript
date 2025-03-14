@@ -1,12 +1,12 @@
-// while文
+// do...while文
 
 let max = 100;
-let num = 1;
+let num = 100;
 let count = 0;
 
-while(num < max){
-  num = num * 4;
+do{
+  num = num * 2;
   count = count + 1;
-}
+}while(num < max);
 
-alert('4を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です')
+alert('2を掛けて' + max + 'を２倍にした数字' + num + 'になり処理を行ったのは' + count + '回です');
