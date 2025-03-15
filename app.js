@@ -1,15 +1,5 @@
-// 作成した関数を呼び出す
+// 入力ダイアログで値を入力する
 
-// メイン部分
-let alertString;
+let promptStr = prompt('何か好きな文字を入力してください。');
 
-// 作成した関数を呼び出し、変数へ格納
-alertString = addString("webCamp");
-
-// 変数の中身をアラートで表示する
-alert(alertString);
-
-function addString(strA){
-  const addStr = "Hello " + strA;
-  return addStr;
-}
+alert(promptStr);
