@@ -1,5 +1,11 @@
-// constによる再代入
-const nickname = "taro"
-console.log(nickname)
-nickname = "jiro"
-console.log(nickname)
+// varのスコープ
+
+var str = "webcamp" //グローバルスコープ
+
+function foo() {
+  console.log(str)
+  var y ="hello" //関数スコープ
+}
+
+foo()
+console.log(y)
