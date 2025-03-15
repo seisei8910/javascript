@@ -1,5 +1,5 @@
-// letによる再代入
-let nickname = "taro"
+// constによる再代入
+const nickname = "taro"
 console.log(nickname)
 nickname = "jiro"
 console.log(nickname)
